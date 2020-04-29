@@ -6,6 +6,8 @@ public class Shahrukh{
 
 		System.out.println("school");
 
+		System.out.println("Ninja");
+
 	}
 }
 
