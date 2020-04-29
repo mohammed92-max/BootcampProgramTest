@@ -7,7 +7,7 @@ public class Shahrukh{
 		System.out.println("school");
 
 		System.out.println("Ninja");
-
+		System.out.println("Daytona");
 	}
 }
 
