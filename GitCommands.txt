@@ -1,0 +1,211 @@
+ 26  git --version
+   92  git config --global user.name "Your Name"
+   93  git config --global user.name "Manoj Pawane"
+  107  touch .gitignore
+  109  git init
+  110  git add .
+  111  git commit -m "Hello world message added"
+  112  git remote add origin https://github.com/manojpawane/BootcampProgramTest.git
+  113  git push -u origin master
+  116  git pull
+  118  git add .
+  119  git status
+  120  git commit -m "updated Helloworld to append it to test"
+  121  git push -u origin master
+  123  git init
+  125  git add .
+  128  git clone https://github.com/manojpawane/BootcampProgramTest.git
+  131  git diff
+  132  git status
+  134  git add .
+  135  git commit -m "Updated Helloworld to add Good night message"
+  136  git push -u origin master
+  138  git pull
+  139  git diff
+  141  git status
+  142  git add .
+  144  git status
+  145  git commit -m "Conflict resolved for Helloworld.java Good morning message"
+  146  git push -u origin master
+  150  git pull
+  153  git pull
+  156  git add .
+  157  git pull
+  158  git diff
+  159  git status
+  161  git commit -m "Added testing 123"
+  162  git pull
+  164  git status
+  165  git add .
+  167  git commit -m "Conflict resolved for Helloworld.java to add testing message"
+  168  git push -u origin master
+  170  git add .
+  171  git commit -m "Added conflict message for Sudhanshu"
+  172  git pull
+  175  git status
+  176  git add .
+  177  git commit -m "Removed Sudhanshu code from remote"
+  178  git push -u origin master
+  208  git checkout -b Dev
+  209  git branch -a
+  210  git branch -a
+  211  git branch -r
+  213  git branch -a
+  214  git branch -r
+  215  git status
+  216  git checkout master
+  217  git pull
+  220  git diff
+  221  git pull
+  222  git diff
+  225  git checkout Dev
+  227  git merge master
+  229  git status
+  230  git push -u origin Dev
+  255  git init
+  256  git mail
+  257  git email
+  258  git user.name
+  260  git config -email
+  261  git config -f
+  263  touch .gitignore
+  264  nano .gitignore
+  265  nano .gitignore
+  266  git status
+  267  git add .
+  268  git status
+  270  git commit -m "Helloworld.java added"
+  271  git remote add origin https://github.com/manojpawane/GitPractise.git
+  272  git push -u origin master
+  276  git pull
+  279  git checkout -b Manoj
+  282  git checkout master
+  284  git pull
+  287  git checkout manoj
+  290  git checkout master
+  291  git status
+  293  git add .
+  294  git commit -m "Testing message added in Helloworld.java"
+  295  git checkout master
+  296  git pull
+  298  git checkout manoj
+  299  git merge master
+  301  git add .
+  303  git status
+  305  git commit -m "conflicts resolved"
+  306  git push -u origin manoj
+  307  history | grep git
+  309  touch gitcommand.txt
+  310  history | grep git > gitcommand.txt 
+  311  cat gitcommand.txt 
+  312  git checkout master
+  313  git add .
+  314  git commit -m "Git commands in text file added"
+  315  git push -u origin master
+  316  git pull
+  317  git status
+  318  git push -u origin master
+  331  git branch -a
+  340  git init
+  341  git add .
+  342  touch .gitignore
+  343  nano .gitignore
+  345  git status
+  346  git add .
+  348  git init
+  349  git add .
+  350  git status
+  351  git commit -m "Helloworld.java added with bug"
+  352  git remote add origin https://github.com/manojpawane/ShubhamBatchGitPractise.git
+  354  git push -u origin master
+  355  git branch -a
+  356  git branch -r
+  358  git checkout -b Manoj
+  361  git checkout master
+  363  git checkout manoj
+  366  git branch
+  368  git branch -
+  369  git branch -A
+  371  git checkout -a
+  372  git branch -a
+  374  git checkout Manoj
+  377  git checkout master
+  379  git checkout Manoj
+  381  git status
+  383  git add .
+  384  git status
+  385  git checkout master
+  387  git add .
+  388  git commit -m "123 message added in Helloworld.java"
+  390  git checkout Manoj
+  393  git checkout master
+  394  git checkout Manoj
+  395  git commit -m "changes in Helloworld.java"
+  397  git checkout master
+  398  git status
+  399  git push -u origin master
+  402  git checkout -b testing
+  404  git checkout master
+  407  git status
+  408  git add .
+  409  git commit -m "big resolved in helloworld.java"
+  410  git push -u origin master
+  412  git checkout testing
+  414  git checkout master
+  417  git pull
+  420  git checkout testing
+  422  git merge master
+  426  git checkout master
+  428  git add .
+  431  git add .
+  432  git commit -m "code added"
+  433  git pull
+  435  git add .
+  436  git commit -m "conflicts resolved"
+  437  git push -u origin master
+  439  git checkout testing
+  441  git checkout master
+  442  git pull
+  443  git checkout testing
+  444  git merge master
+  449  git status
+  450  git add .
+  451  git commit -m "Added new feature in Helloworld.java"
+  452  git push -u origin testing
+  455  git add .
+  456  git commit -m "Audio feature added"
+  457  git push -u origin testing
+  460  git checkout master
+  461  git pull
+  464  git merge testing
+  466  git add .
+  467  git status
+  468  git commit -m "conflicts resolved"
+  470  git push -u origin master
+  473  git pull
+  477  git checkout testing
+  479  git merge master
+  482  git add .
+  483  git commit -m "Video feature added"
+  484  git checkout master
+  485  git pull
+  486  git checkout testing
+  488  git merge master
+  489  git push -u origin testing
+  491  git add .
+  492  git commit -m "new feature added of vfx"
+  493  git checkout master
+  496  git pull
+  499  git checkout testing
+  500  git merge master
+  501  git add .
+  502  git commit -m "merge with master for latest update"
+  504  git push -u origin testing
+  506  git checkout master
+  508  git checkout testing
+  509  git pull
+  512  git checkout master
+  513  git merge testing
+  516  git push -u origin master
+  518  history | grep git
+  519  history | grep git > "gitcommandsfromhistory.txt"
