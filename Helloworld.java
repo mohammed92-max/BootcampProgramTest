@@ -4,6 +4,7 @@ public class Helloworld{
 		System.out.println("Hello world to coding club testing");
 
 		System.out.println("goog night");
-		System.out.println("OK");		
+		System.out.println("OK");
+		System.out.println("Today");
 	}
 }
