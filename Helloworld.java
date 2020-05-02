@@ -6,5 +6,6 @@ public class Helloworld{
 		System.out.println("goog night");
 		System.out.println("OK");
 		System.out.println("Today");
+		System.out.println("Tomorrow");
 	}
 }
