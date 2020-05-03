@@ -1,15 +1,12 @@
 #!/bin/bash -x
-randomCheck=$((RANDOM%2));
 isPresent=1;
+randomCheck=$((RANDOM%2));
 if [ $isPresent -eq $randomCheck ]
 then
-        echo "Employee is Present";
+        wagePerHour=20;
+        workingHoursPerDay=8;
+        wage=$(($wagePerHour * $workingHoursPerDay));
 else
-        echo "Employee is Absent";
+        wage=0;
 fi
-
-
-
-
-
-
+echo $wage;
