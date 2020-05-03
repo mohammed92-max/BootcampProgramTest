@@ -1,1 +1,1 @@
-echo "Welcome to employee wage computation"
+echo "Welcome to Employee Wage Computation"
